@@ -34,5 +34,6 @@ int main() {
     human_years = early_years + later_years;
 
     std::cout << "My name is Zeus! Ruff ruff, I am " << human_years << " years old in human years!\n";
-    
+
+    return 0;
 }
