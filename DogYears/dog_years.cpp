@@ -32,5 +32,7 @@ int main() {
 
     // combine the early_years and later_years to get dog's total age in human years
     human_years = early_years + later_years;
+
+    std::cout << "My name is Zeus! Ruff ruff, I am " << human_years << " years old in human years!\n";
     
 }
