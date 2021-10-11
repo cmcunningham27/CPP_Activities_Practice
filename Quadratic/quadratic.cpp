@@ -13,5 +13,7 @@ int main() {
     std::cout << "Enter c: ";
     std::cin >> c;
 
+    double root1, root2;
+
     return 0;
 }
