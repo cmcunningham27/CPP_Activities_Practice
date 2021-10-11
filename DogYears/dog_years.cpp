@@ -19,4 +19,6 @@
 
 //OR
 
-int main() {}
+int main() {
+    int dog_age = 6;
+}
