@@ -23,4 +23,8 @@ int main() {
     int dog_age = 6;
 
     int early_years, later_years, human_years;
+
+    // The first two years of a dog's life count as 21 human years
+    early_years = 21;
+    
 }
