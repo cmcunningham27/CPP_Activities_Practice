@@ -10,5 +10,8 @@ int main() {
     std::cout << "Enter b: ";
     std::cin >> b;
 
+    std::cout << "Enter c: ";
+    std::cin >> c;
+
     return 0;
 }
