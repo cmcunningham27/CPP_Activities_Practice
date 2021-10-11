@@ -21,4 +21,6 @@
 
 int main() {
     int dog_age = 6;
+
+    int early_years, later_years, human_years;
 }
