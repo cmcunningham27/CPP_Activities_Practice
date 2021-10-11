@@ -18,5 +18,8 @@ int main() {
     // finds the first root (value of x) using '+'
     root1 = (-b + std::sqrt(b*b - 4*a*b)) / (2*a);
 
+    // finds the second root (value of x) using '-'
+    root2 = (-b - std::sqrt(b*b - 4*a*c)) / (2*a);
+
     return 0;
 }
