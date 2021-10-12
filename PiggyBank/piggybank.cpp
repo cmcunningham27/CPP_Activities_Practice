@@ -9,5 +9,8 @@ int main() {
     std::cout << "Enter number of Brazillian Reais: \n";
     std::cin >> reais;
 
+    std::cout << "Enter number of Peruvian Soles: \n";
+    std::cin >> soles;
+
     return 0;
 }
