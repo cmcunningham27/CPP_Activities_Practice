@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstdlib>
+#include <time.h>
 
 int main() {
     std::cout << "MAGIC 8-BALL: \n\n";
