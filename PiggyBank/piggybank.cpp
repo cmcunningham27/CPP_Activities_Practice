@@ -17,5 +17,7 @@ int main() {
     //conversion from soles to us (soles * 0.245099)
     dollars = (0.05355 * pesos) + (0.180606 * reais) + (0.245099 * soles);
 
+    std::cout << "US Dollars = $" << dollars << "\n";
+
     return 0;
 }
