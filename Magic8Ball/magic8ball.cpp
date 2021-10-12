@@ -31,4 +31,6 @@ std::cout << "Sign point to yes\n";
     } else {
         std::cout << "Very doubtful\n";
     };
+
+    return 0;
 }
