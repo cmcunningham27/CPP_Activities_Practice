@@ -15,6 +15,7 @@ int main() {
     //conversion from pesos to us (pesos * 0.05355)
     //conversion from reais to us (reais * 0,180606)
     //conversion from soles to us (soles * 0.245099)
+    dollars = (0.05355 * pesos) + (0.180606 * reais) + (0.245099 * soles);
 
     return 0;
 }
