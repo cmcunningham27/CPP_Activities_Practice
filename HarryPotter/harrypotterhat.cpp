@@ -65,5 +65,9 @@ int main() {
     };
 
     std::cout << "Q4) Which road tempts you most?\n\n";
+    std::cout << "  1) The wide, sunny grassy lane\n";
+    std::cout << "  2) The narrow, dark, lantern-lit alley\n";
+    std::cout << "  3) The twisiting, leaf-strewn path through woods\n";
+    std::cout << "  4) The cobbled street lined (ancient buildings)\n";
 
 };
