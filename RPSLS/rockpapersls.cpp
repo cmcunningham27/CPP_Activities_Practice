@@ -15,6 +15,9 @@ Spock vaporizes Rock,
 
 int main() {
 
+    // creates random number for the computer from 1-3 by adding 1 to 0-2
+    int computer = rand() % 3 + 1;
 
+    int user = 0;
 
 }
