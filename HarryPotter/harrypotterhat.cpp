@@ -87,6 +87,7 @@ int main() {
     int max = 0;
     std::string house;
 
+    // I noticed that these 4 if statements alone will not provide for tie cases, so the first one that is greater will be the house. That means slytherin would not beat a tie, Gryffindor would always win
     if (gryffindor > max) {
         max = gryffindor;
         house = "Gryffindor";
