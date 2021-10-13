@@ -33,4 +33,6 @@ int main() {
     std::cout << "4) Lizard\n";
     std::cout << "5) Spock\n";
 
+    std::cout << "shoot!\n";
+
 }
