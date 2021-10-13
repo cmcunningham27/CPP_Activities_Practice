@@ -34,4 +34,12 @@ int main() {
 
     std::cin >> answer2;
 
+    if (answer2 == 1) {
+
+    } else if (answer2 == 2) {
+
+    } else {
+
+    };
+
 };
