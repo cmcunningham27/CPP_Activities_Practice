@@ -35,4 +35,6 @@ int main() {
 
     std::cout << "shoot!\n";
 
+    std::cin >> user;
+
 }
