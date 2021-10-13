@@ -83,5 +83,8 @@ int main() {
     } else {
         std::cout << "Invalid input\n";
     };
+
+    int max = 0;
+    std::string house;
  
 };
