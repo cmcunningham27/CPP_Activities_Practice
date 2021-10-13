@@ -106,5 +106,7 @@ int main() {
         max = slytherin;
         house = "Slytherin";
     };
+
+    std::cout << house << "!\n";
  
 };
