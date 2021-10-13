@@ -86,5 +86,10 @@ int main() {
 
     int max = 0;
     std::string house;
+
+    if (gryffindor > max) {
+        max = gryffindor;
+        house = "Gryffindor";
+    };
  
 };
