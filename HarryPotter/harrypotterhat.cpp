@@ -32,4 +32,6 @@ int main() {
     std::cout << "  1) Dawn\n";
     std::cout << "  2) Dusk\n";
 
+    std::cin >> answer2;
+
 };
