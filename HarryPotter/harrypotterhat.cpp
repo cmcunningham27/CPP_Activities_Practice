@@ -28,4 +28,6 @@ int main() {
         std::cout << "Invalid input\n";
     };
 
+    std::cout << "Q2) Dawn or Dusk\n\n";
+
 };
