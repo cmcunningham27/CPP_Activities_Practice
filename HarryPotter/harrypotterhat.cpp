@@ -50,4 +50,6 @@ int main() {
     std::cout << "  3) The piano\n";
     std::cout << "  4) The drum\n";
 
+    std::cin >> answer3;
+
 };
