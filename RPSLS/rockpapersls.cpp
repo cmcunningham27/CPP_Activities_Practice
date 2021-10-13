@@ -23,6 +23,10 @@ int main() {
 
     int user = 0;
 
-    std::cout << computer;
+    std::cout << "=================================\n";
+    std::cout << "rock paper scissors lizard spock!\n";
+    std::cout << "=================================\n";
+
+    
 
 }
