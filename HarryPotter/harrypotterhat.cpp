@@ -45,5 +45,9 @@ int main() {
     };
 
     std::cout << "Q3) Whic kind of instrument most pleases your ear?\n\n";
+    std::cout << "  1) The violin\n";
+    std::cout << "  2) The trumpet\n";
+    std::cout << "  3) The piano\n";
+    std::cout << "  4) The drum\n";
 
 };
