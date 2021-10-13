@@ -6,4 +6,6 @@ int main() {
 
     int answer1, answer2, answer3, answer4;
 
+    std::cout << "The Sorting Hat Quiz!\n";
+
 };
