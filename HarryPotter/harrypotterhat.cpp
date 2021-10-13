@@ -14,4 +14,6 @@ int main() {
     std::cout << "  3) The Wise\n";
     std::cout << "  4) The Bold\n";
 
+    std::cin >> answer1;
+
 };
