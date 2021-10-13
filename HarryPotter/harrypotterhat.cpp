@@ -70,4 +70,6 @@ int main() {
     std::cout << "  3) The twisiting, leaf-strewn path through woods\n";
     std::cout << "  4) The cobbled street lined (ancient buildings)\n";
 
+    std::cin >> answer4;
+
 };
