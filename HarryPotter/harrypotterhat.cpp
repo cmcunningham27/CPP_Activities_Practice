@@ -16,4 +16,16 @@ int main() {
 
     std::cin >> answer1;
 
+    if (answer1 == 1) {
+
+    } else if (answer1 == 2) {
+
+    } else if (answer1 == 3) {
+
+    } else if (answer1 == 4) {
+
+    } else {
+
+    };
+
 };
