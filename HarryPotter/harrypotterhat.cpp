@@ -101,5 +101,10 @@ int main() {
         max = ravenclaw;
         house = "Ravenclaw";
     };
+
+    if (slytherin > max) {
+        max = slytherin;
+        house = "Slytherin";
+    };
  
 };
