@@ -29,5 +29,7 @@ int main() {
     };
 
     std::cout << "Q2) Dawn or Dusk\n\n";
+    std::cout << "  1) Dawn\n";
+    std::cout << "  2) Dusk\n";
 
 };
