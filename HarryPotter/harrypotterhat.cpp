@@ -35,11 +35,13 @@ int main() {
     std::cin >> answer2;
 
     if (answer2 == 1) {
-
+        ++gryffindor;
+        ++ravenclaw;
     } else if (answer2 == 2) {
-
+        ++hufflepuff;
+        ++slytherin;
     } else {
-
+        std::cout << "Invalid input\n";
     };
 
 };
