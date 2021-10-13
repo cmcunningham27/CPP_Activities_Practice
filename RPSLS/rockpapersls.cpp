@@ -12,12 +12,17 @@ Spock vaporizes Rock,
 
 #include <iostream>
 #include <stdlib.h>
+#include <time.h>
 
 int main() {
 
-    // creates random number for the computer from 1-3 by adding 1 to 0-2
-    int computer = rand() % 3 + 1;
+    srand (time(NULL));
+
+    // creates random number for the computer from 1-5 by adding 1 to 0-4
+    int computer = rand() % 5 + 1;
 
     int user = 0;
+
+    std::cout << computer;
 
 }
