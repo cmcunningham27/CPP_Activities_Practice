@@ -91,5 +91,10 @@ int main() {
         max = gryffindor;
         house = "Gryffindor";
     };
+
+    if (hufflepuff > max) {
+        max = hufflepuff;
+        house = "Hufflepuff";
+    };
  
 };
