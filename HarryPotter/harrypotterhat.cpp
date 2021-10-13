@@ -44,4 +44,6 @@ int main() {
         std::cout << "Invalid input\n";
     };
 
+    std::cout << "Q3) Whic kind of instrument most pleases your ear?\n\n";
+
 };
