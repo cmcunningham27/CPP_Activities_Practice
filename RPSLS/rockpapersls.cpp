@@ -27,6 +27,10 @@ int main() {
     std::cout << "rock paper scissors lizard spock!\n";
     std::cout << "=================================\n";
 
-    
+    std::cout << "1) Rock\n";
+    std::cout << "2) Paper\n";
+    std::cout << "3) Scissors\n";
+    std::cout << "4) Lizard\n";
+    std::cout << "5) Spock\n";
 
 }
