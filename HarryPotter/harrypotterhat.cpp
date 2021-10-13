@@ -73,15 +73,15 @@ int main() {
     std::cin >> answer4;
 
     if (answer4 == 1) {
-
+        ++hufflepuff;
     } else if (answer4 == 2) {
-
+        ++slytherin;
     } else if (answer4 == 3) {
-
+        ++gryffindor;
     } else if (answer4 == 4) {
-
+        ++ravenclaw;
     } else {
-
+        std::cout << "Invalid input\n";
     };
  
 };
