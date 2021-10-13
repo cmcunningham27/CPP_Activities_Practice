@@ -52,4 +52,16 @@ int main() {
 
     std::cin >> answer3;
 
+    if (answer3 == 1) {
+
+    } else if (answer3 == 2) {
+
+    } else if (answer3 == 3) {
+
+    } else if (answer3 == 4) {
+
+    } else {
+
+    };
+
 };
