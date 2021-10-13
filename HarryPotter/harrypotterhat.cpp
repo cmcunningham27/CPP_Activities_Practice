@@ -72,4 +72,16 @@ int main() {
 
     std::cin >> answer4;
 
+    if (answer4 == 1) {
+
+    } else if (answer4 == 2) {
+
+    } else if (answer4 == 3) {
+
+    } else if (answer4 == 4) {
+
+    } else {
+
+    };
+ 
 };
