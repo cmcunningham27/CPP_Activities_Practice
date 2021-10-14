@@ -16,8 +16,11 @@ int main() {
 
             std::cout << "Fizz\n";
 
-        }
+        } else {
 
+
+            
+        }
     }
 
 
