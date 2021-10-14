@@ -18,7 +18,7 @@ int main() {
 
         } else {
 
-            std::cout << i;
+            std::cout << i << "\n";
 
         }
     }
