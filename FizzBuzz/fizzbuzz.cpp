@@ -8,6 +8,10 @@ int main() {
 
             std::cout << "FizzBuzz\n";
 
+        } else if (i % 5 == 0) {
+
+
+            
         }
 
     }
