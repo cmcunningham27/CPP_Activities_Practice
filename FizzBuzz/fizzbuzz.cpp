@@ -18,8 +18,8 @@ int main() {
 
         } else {
 
+            std::cout << i;
 
-            
         }
     }
 
