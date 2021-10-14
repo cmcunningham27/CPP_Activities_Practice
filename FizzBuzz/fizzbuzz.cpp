@@ -12,6 +12,10 @@ int main() {
 
             std::cout << "Buzz\n";
 
+        } else if (i % 3 == 0) {
+
+
+            
         }
 
     }
