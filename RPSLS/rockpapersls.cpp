@@ -65,7 +65,7 @@ int main() {
             std::cout << "Computer wins!\n";
 
         }; 
-    }
+    };
 
     if (user == 2) {
         std::cout << "You chose Paper!\n";
@@ -170,7 +170,4 @@ int main() {
 
         };
     };
-
-
-
-}
+};
