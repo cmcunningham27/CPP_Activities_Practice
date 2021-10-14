@@ -10,8 +10,8 @@ int main() {
 
         } else if (i % 5 == 0) {
 
+            std::cout << "Buzz\n";
 
-            
         }
 
     }
