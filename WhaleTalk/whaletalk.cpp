@@ -21,7 +21,8 @@ int main() {
                 results.push_back(input[i]);
                 // check if the character is an e or u
                 if (input[i] == 'e' || input[i] == 'u') {
-                    
+                    // if it is push it to back of results again
+                    results.push_back(input[i]);
                 }
             }
         }
