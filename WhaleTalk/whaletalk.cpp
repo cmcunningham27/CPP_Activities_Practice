@@ -19,6 +19,10 @@ int main() {
             if (input[i] == vowels[j]) {
                 // if they match add character to the back of results vector
                 results.push_back(input[i]);
+                // check if the character is an e or u
+                if (input[i] == 'e' || input[i] == 'u') {
+                    
+                }
             }
         }
     }
