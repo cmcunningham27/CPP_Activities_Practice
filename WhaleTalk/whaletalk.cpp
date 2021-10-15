@@ -17,7 +17,8 @@ int main() {
         for (int j = 0; j < vowels.size(); j++) {
             // check if string character matches any of the characters in vowels
             if (input[i] == vowels[j]) {
-
+                // if they match add character to the back of results vector
+                results.push_back(input[i]);
             }
         }
     }
