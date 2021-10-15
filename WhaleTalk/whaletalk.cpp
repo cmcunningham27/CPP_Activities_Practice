@@ -23,10 +23,15 @@ int main() {
                 if (input[i] == 'e' || input[i] == 'u') {
                     // if it is push it to back of results again
                     results.push_back(input[i]);
-                }
-            }
-        }
-    }
+                };
+            };
+        };
+    };
+
+    // output the whale talk from results
+    for (int l = 0; l < results.size(); l++) {
+        std::cout << results[l];
+    };
 
     return 0;
 };
