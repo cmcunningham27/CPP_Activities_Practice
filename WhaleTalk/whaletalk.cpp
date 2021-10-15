@@ -15,7 +15,10 @@ int main() {
     for (int i = 0; i < input.length(); i++) {
         // loop through vowels vector
         for (int j = 0; j < vowels.size(); j++) {
+            // check if string character matches any of the characters in vowels
+            if (input[i] == vowels[j]) {
 
+            }
         }
     }
 
