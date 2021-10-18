@@ -8,4 +8,6 @@ int main() {
     std::string codeword = "codecademy";
     std::string answer = "_ _ _ _ _ _ _ _ _ _";
 
+    int misses = 0;
+
 }
