@@ -116,4 +116,18 @@ void display_misses(int misses) {
     std::cout << "         /               \\                   \n";
 
   }
+};
+
+void end_game(std::string answer, std::string codeword) {
+
+    if (answer == codeword) {
+
+        std::cout << "Hooray! You saved the person and earned a medal of honor!\n";
+
+    } else {
+
+        std::cout << "Oh no! The UFO just flew away with another person!\n";
+
+    };
+    
 }

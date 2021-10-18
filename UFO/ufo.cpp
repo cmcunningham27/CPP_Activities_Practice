@@ -16,4 +16,6 @@ int main() {
 
     };
 
+    end_game(answer, codeword);
+
 }
