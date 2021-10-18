@@ -12,6 +12,9 @@ int main() {
 
     while (answer != codeword && misses < 7) {
 
+        // outputs display for appropriate number of misses
+        display_misses(misses);
+
         misses++;
 
     };
