@@ -10,10 +10,16 @@ int main() {
 
     int misses = 0;
 
+    std::vector<char> incorrect;
+    bool guess = false;
+
+
     while (answer != codeword && misses < 7) {
 
         // outputs display for appropriate number of misses
         display_misses(misses);
+
+        display_status(incorrect, answer);
 
         misses++;
 
