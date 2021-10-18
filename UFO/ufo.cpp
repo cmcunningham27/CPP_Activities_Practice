@@ -25,6 +25,18 @@ int main() {
         std::cout << "\nPlease enter your guess: \n";
         std::cin >> letter;
 
+        // iterate through codeword to check if user's guess matches any character in codeword
+        for (int i = 0; i < codeword.length(); i++) {
+
+            if (letter == codeword[i]) {
+                // assign answer's index with the correctly guessed letter
+                answer[i] = letter;
+                guess = true;
+
+            };
+            
+        }
+
         misses++;
 
     };
