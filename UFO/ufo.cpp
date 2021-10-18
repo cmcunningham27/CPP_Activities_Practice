@@ -6,7 +6,7 @@ int main() {
     greet();
 
     std::string codeword = "codecademy";
-    std::string answer = "_ _ _ _ _ _ _ _ _ _";
+    std::string answer = "__________";
 
     int misses = 0;
 
@@ -15,7 +15,7 @@ int main() {
     char letter;
 
 
-    while (answer != codeword && misses < 7) {
+    while (answer != codeword && misses < 6) {
 
         // outputs display for appropriate number of misses
         display_misses(misses);
@@ -55,4 +55,4 @@ int main() {
 
     end_game(answer, codeword);
 
-}
+};
