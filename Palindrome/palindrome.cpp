@@ -15,6 +15,12 @@ bool is_palindrome(std::string text) {
         forward = text[j];
     };
 
+    if (backward == forward) {
+        palindrome = true;
+    } else {
+        palindrome = false;
+    };
+
     return palindrome;
 };
 
