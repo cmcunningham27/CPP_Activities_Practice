@@ -12,6 +12,7 @@ int main() {
 
     std::vector<char> incorrect;
     bool guess = false;
+    char letter;
 
 
     while (answer != codeword && misses < 7) {
@@ -20,6 +21,9 @@ int main() {
         display_misses(misses);
 
         display_status(incorrect, answer);
+
+        std::cout << "\nPlease enter your guess: \n";
+        std::cin >> letter;
 
         misses++;
 
