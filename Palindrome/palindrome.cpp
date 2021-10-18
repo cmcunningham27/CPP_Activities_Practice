@@ -10,6 +10,11 @@ bool is_palindrome(std::string text) {
         backward = text[i];
     };
 
+    // iterate through string forwards
+    for (int j = 0; j < text.length(); j++) {
+        forward = text[j];
+    };
+
     return palindrome;
 };
 
