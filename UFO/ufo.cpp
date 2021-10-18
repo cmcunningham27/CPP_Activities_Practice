@@ -49,7 +49,7 @@ int main() {
 
         };
 
-        
+        guess = false;
 
     };
 
