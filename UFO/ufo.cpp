@@ -10,4 +10,10 @@ int main() {
 
     int misses = 0;
 
+    while (answer != codeword && misses < 7) {
+
+        misses++;
+
+    };
+
 }
