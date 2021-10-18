@@ -34,10 +34,22 @@ int main() {
                 guess = true;
 
             };
-            
-        }
 
-        misses++;
+        };
+
+        if (guess) {
+
+            std::cout << "Correct!\n";
+
+        } else {
+
+            std::cout << "Incorrect! The tractor beam pulls the person in further.\n";
+            incorrect.push_back(letter);
+            misses++;
+
+        };
+
+        
 
     };
 
