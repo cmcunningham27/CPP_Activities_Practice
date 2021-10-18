@@ -1,6 +1,16 @@
 #include <iostream>
 #include <vector>
 
+// outputs greeting to user about the game
+void greet() {
+
+    std::cout << "=============\n";
+    std::cout << "UFO: The Game\n";
+    std::cout << "=============\n";
+    std::cout << "Instructions: save your friend from alien adbuction by guessing the letters in the codeword.\n";
+
+};
+
 // determines what is to be displayed as output according to how many misses the user has accrued
 void display_misses(int misses) {
 
