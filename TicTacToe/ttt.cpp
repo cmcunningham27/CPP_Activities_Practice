@@ -9,6 +9,8 @@ int main() {
 
     int turns = 1;
 
+    int spot;
+
     while (turns < 10) {
 
         display_game(board);
@@ -19,11 +21,15 @@ int main() {
             std::cout << "Player 1's turn!\n";
             std::cout << "Pick a position from 1-9 that's not already taken.\n";
 
+            std::cin >> spot;
+
 
         } else {
 
             std::cout << "Player 2's turn!\n";
             std::cout << "Pick a position from 1-9 that's not already taken.\n";
+
+            std::cin >> spot;
 
         };
 
