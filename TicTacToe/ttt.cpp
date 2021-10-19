@@ -113,6 +113,9 @@ int main() {
 
         };
 
+        // increment turns by 1 after each players turn
+        turns++;
+
     };
 
     return 0;
