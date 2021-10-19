@@ -62,6 +62,8 @@ int main() {
                     break;
             };
 
+            win1 = check_win(board, win1, win2);
+
 
         } else {
 
