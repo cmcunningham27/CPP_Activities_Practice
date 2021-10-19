@@ -11,7 +11,7 @@ int main() {
 
     while (turns < 10) {
 
-        
+        display_game(board);
 
     };
 
