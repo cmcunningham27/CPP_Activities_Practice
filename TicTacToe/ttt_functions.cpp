@@ -17,4 +17,18 @@ void display_game(std::vector<std::string> board) {
 
 bool check_win(std::vector<std::string> board, bool win1, bool win2) {
 
+    // if first row is all X's assign win1 to true
+    if (board[0] == "X" && board[1] == "X" && board[2] == "X") {
+        return true;
+    };
+
+    // if second row is all X's assign win1 to true
+    if (board[3] == "X" && board[4] == "X" && board[5] == "X") {
+        return true;
+    };
+
+    // if third row is all X's assign win1 to true
+    if ( board[6] == "X" && board[7] == "X" && board[8] == "X") {
+        return true;
+    };
 };
