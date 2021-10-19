@@ -23,6 +23,18 @@ int main() {
 
             std::cin >> spot;
 
+            switch (spot) {
+                case 1:
+                case 2:
+                case 3:
+                case 4:
+                case 5:
+                case 6:
+                case 7:
+                case 8:
+                case 9:
+            };
+
 
         } else {
 
@@ -30,6 +42,18 @@ int main() {
             std::cout << "Pick a position from 1-9 that's not already taken.\n";
 
             std::cin >> spot;
+
+            switch (spot) {
+                case 1:
+                case 2:
+                case 3:
+                case 4:
+                case 5:
+                case 6:
+                case 7:
+                case 8:
+                case 9:
+            };
 
         };
 
