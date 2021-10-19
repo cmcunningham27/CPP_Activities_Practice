@@ -45,14 +45,35 @@ int main() {
 
             switch (spot) {
                 case 1:
+                    board[0] = "X";
+                    break;
                 case 2:
+                    board[1] = "X";
+                    break;
                 case 3:
+                    board[2] = "X";
+                    break;
                 case 4:
+                    board[3] = "X";
+                    break;
                 case 5:
+                    board[4] ="X";
+                    break;
                 case 6:
+                    board[5] ="X";
+                    break;
                 case 7:
+                    board[6] = "X";
+                    break;
                 case 8:
+                    board[7] = "X";
+                    break;
                 case 9:
+                    board[8] ="X";
+                    break;
+                default:
+                    std::cout << "Invalid input\n";
+                    break;
             };
 
         };
