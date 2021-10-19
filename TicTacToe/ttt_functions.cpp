@@ -20,15 +20,21 @@ bool check_win(std::vector<std::string> board, bool win1, bool win2) {
     // if first row is all X's return true
     if (board[0] == "X" && board[1] == "X" && board[2] == "X") {
         return true;
+    } else if (board[0] == "O" && board[1] == "O" && board[2] == "O") {
+        return true;
     };
 
     // if second row is all X's return true
     if (board[3] == "X" && board[4] == "X" && board[5] == "X") {
         return true;
+    } else if (board[3] == "O" && board[4] == "O" && board[5] == "O") {
+        return true
     };
 
     // if third row is all X's return true
-    if ( board[6] == "X" && board[7] == "X" && board[8] == "X") {
+    if (board[6] == "X" && board[7] == "X" && board[8] == "X") {
+        return true;
+    } else if (board[6] == "O" && board[7] == "O" && board[8] == "O") {
         return true;
     };
 
@@ -56,4 +62,5 @@ bool check_win(std::vector<std::string> board, bool win1, bool win2) {
     if (board[2] == "X" && board[4] == "X" && board[6] == "X") {
         return true;
     };
+
 };

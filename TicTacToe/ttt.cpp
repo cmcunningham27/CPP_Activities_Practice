@@ -62,6 +62,7 @@ int main() {
                     break;
             };
 
+            // check if player 1 has won
             win1 = check_win(board, win1, win2);
 
 
@@ -106,6 +107,9 @@ int main() {
                     std::cout << "Invalid input\n";
                     break;
             };
+
+            // check if player 2 has won
+            win2 = check_win(board, win1, win2);
 
         };
 
