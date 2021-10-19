@@ -12,6 +12,8 @@ int main() {
     int spot;
     // boolean for when player wins, start with neither player won
     bool win1 = false, win2 = false;
+    // string for which player won
+    std::string player;
 
     // while turns is less than 10
     while (turns < 10) {
@@ -65,6 +67,11 @@ int main() {
             // check if player 1 has won
             win1 = check_win(board, win1, win2);
 
+            // if player 1 won end game
+            if (win1) {
+                
+            };
+
 
         } else {
 
@@ -110,6 +117,11 @@ int main() {
 
             // check if player 2 has won
             win2 = check_win(board, win1, win2);
+
+            // if player 2 won end game
+            if (win2) {
+
+            };
 
         };
 
