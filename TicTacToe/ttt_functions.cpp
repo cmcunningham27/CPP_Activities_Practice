@@ -46,4 +46,14 @@ bool check_win(std::vector<std::string> board, bool win1, bool win2) {
     if (board[2] == "X" && board[5] == "X" && board[8] == "X") {
         return true;
     };
+
+    // if diagonal from top-left to bottom-right is all X's return true
+    if (board[0] == "X" && board[4] == "X" && board[8] == "X") {
+        return true;
+    };
+
+    // if diagonal from top-right to bottom-left is all X's return true
+    if (board[2] == "X" && board[4] == "X" && board[6] == "X") {
+        return true;
+    };
 };
