@@ -67,9 +67,11 @@ int main() {
             // check if player 1 has won
             win1 = check_win(board, win1, win2);
 
+            player = "Player 1";
+
             // if player 1 won end game
             if (win1) {
-                
+                end_game(player);
             };
 
 
@@ -118,9 +120,11 @@ int main() {
             // check if player 2 has won
             win2 = check_win(board, win1, win2);
 
+            player = "Player 2";
+
             // if player 2 won end game
             if (win2) {
-
+                end_game(player);
             };
 
         };
