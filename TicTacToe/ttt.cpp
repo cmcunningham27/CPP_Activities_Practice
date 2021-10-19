@@ -6,13 +6,17 @@ int main() {
 
     // assign a vector with 9 positions starting with strings with spaces
     std::vector<std::string> board = {" ", " ", " ", " ", " ", " ", " ", " ", " "};
-
+    // first turn
     int turns = 1;
-
+    // position on board
     int spot;
+    // boolean for when player wins, start with neither player won
+    bool win1 = false, win2 = false;
 
+    // while turns is less than 10
     while (turns < 10) {
 
+        // displays current board each turn
         display_game(board);
 
         // determine whose turn it is, starts with Player 1 first (x's)
@@ -20,9 +24,11 @@ int main() {
 
             std::cout << "Player 1's turn!\n";
             std::cout << "Pick a position from 1-9 that's not already taken.\n";
-
+            
+            // player 1's input
             std::cin >> spot;
 
+            // change position to X
             switch (spot) {
                 case 1:
                     board[0] = "X";
@@ -62,8 +68,10 @@ int main() {
             std::cout << "Player 2's turn!\n";
             std::cout << "Pick a position from 1-9 that's not already taken.\n";
 
+            // player 2's input
             std::cin >> spot;
 
+            // change position to O
             switch (spot) {
                 case 1:
                     board[0] = "O";
