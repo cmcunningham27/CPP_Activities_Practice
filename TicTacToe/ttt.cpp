@@ -66,14 +66,35 @@ int main() {
 
             switch (spot) {
                 case 1:
+                    board[0] = "O";
+                    break;
                 case 2:
+                    board[1] = "O";
+                    break;
                 case 3:
+                    board[2] = "O";
+                    break;
                 case 4:
+                    board[3] = "O";
+                    break;
                 case 5:
+                    board[4] = "O";
+                    break;
                 case 6:
+                    board[5] = "O";
+                    break;
                 case 7:
+                    board[6] = "O";
+                    break;
                 case 8:
+                    board[7] = "O";
+                    break;
                 case 9:
+                    board[8] = "O";
+                    break;
+                default:
+                    std::cout << "Invalid input\n";
+                    break;
             };
 
         };
